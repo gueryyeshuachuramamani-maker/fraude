@@ -1,0 +1,974 @@
+{
+ "A": {
+  "VP": 18,
+  "FP": 0,
+  "FN": 12,
+  "VN": 30,
+  "precision": 1.0,
+  "recall": 0.6,
+  "f1": 0.7499999999999999,
+  "exactitud": 0.8
+ },
+ "B": {
+  "VP": 14,
+  "FP": 0,
+  "FN": 16,
+  "VN": 30,
+  "precision": 1.0,
+  "recall": 0.4666666666666667,
+  "f1": 0.6363636363636364,
+  "exactitud": 0.7333333333333333
+ },
+ "C": {
+  "VP": 19,
+  "FP": 0,
+  "FN": 11,
+  "VN": 30,
+  "precision": 1.0,
+  "recall": 0.6333333333333333,
+  "f1": 0.7755102040816326,
+  "exactitud": 0.8166666666666667
+ },
+ "tiempo_us": {
+  "A": 98.42275783333321,
+  "C": 98.39065624999914
+ },
+ "niveles_legitimos": {
+  "BAJO": 30
+ },
+ "niveles_fraudes": {
+  "ALTO": 18,
+  "MEDIO": 1,
+  "BAJO": 11
+ },
+ "evid_usadas_media": 3.5166666666666666,
+ "sin_reputacion": 24,
+ "errores": [
+  {
+   "url": "https://bit.ly/premio-tigo",
+   "y": 1,
+   "p": 0.6122,
+   "nivel": "MEDIO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": true,
+    "C": true
+   }
+  },
+  {
+   "url": "https://t.me/+PremiosGratisBolivia",
+   "y": 1,
+   "p": 0.0043,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "url": "https://amazon.verify-account.online/signin?id=88213",
+   "y": 1,
+   "p": 0.1611,
+   "nivel": "BAJO",
+   "ev": {
+    "D": true,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "url": "https://wa.me.chat-soporte.site/",
+   "y": 1,
+   "p": 0.0043,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "url": "https://goog1e-drive-compartido.com/doc",
+   "y": 1,
+   "p": 0.1611,
+   "nivel": "BAJO",
+   "ev": {
+    "D": true,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "url": "https://www.tiktok-premios.live/",
+   "y": 1,
+   "p": 0.1611,
+   "nivel": "BAJO",
+   "ev": {
+    "D": true,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "url": "https://www.facebook.com@evil-site.top/login",
+   "y": 1,
+   "p": 0.0552,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": true,
+    "C": false
+   }
+  },
+  {
+   "url": "https://www.mercado-libre-bolivia.com/ofertas",
+   "y": 1,
+   "p": 0.1477,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": true,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "url": "https://tinyurl.com/yz8abc",
+   "y": 1,
+   "p": 0.0043,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "url": "https://cutt.ly/ganar-dinero",
+   "y": 1,
+   "p": 0.0043,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "url": "https://wh4tsapp-web.top/qr",
+   "y": 1,
+   "p": 0.1477,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": true,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "url": "https://youtube-premio.click/video",
+   "y": 1,
+   "p": 0.1047,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": false,
+    "C": true
+   }
+  }
+ ],
+ "detalle": [
+  {
+   "i": 1,
+   "url": "https://www.google.com/maps/place/La+Paz",
+   "y": 0,
+   "p": 0.0032,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": null
+   }
+  },
+  {
+   "i": 2,
+   "url": "https://wa.me/59170000000",
+   "y": 0,
+   "p": 0.0009,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 3,
+   "url": "https://www.facebook.com/groups/1234567/",
+   "y": 0,
+   "p": 0.0043,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 4,
+   "url": "https://t.me/+AbCdEfGh123",
+   "y": 0,
+   "p": 0.0043,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 5,
+   "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+   "y": 0,
+   "p": 0.0009,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 6,
+   "url": "https://es.wikipedia.org/wiki/Red_bayesiana",
+   "y": 0,
+   "p": 0.0032,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": null
+   }
+  },
+  {
+   "i": 7,
+   "url": "https://www.paypal.com/myaccount/summary",
+   "y": 0,
+   "p": 0.0009,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 8,
+   "url": "https://accounts.google.com/signin/v2/identifier",
+   "y": 0,
+   "p": 0.0009,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 9,
+   "url": "https://www.mercadolibre.com.bo/p/MLB12345",
+   "y": 0,
+   "p": 0.0009,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 10,
+   "url": "https://www.bnb.com.bo/PortalBNB/",
+   "y": 0,
+   "p": 0.0009,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 11,
+   "url": "https://docs.google.com/document/d/1AbCdEf/edit?usp=sharing",
+   "y": 0,
+   "p": 0.0043,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 12,
+   "url": "https://www.instagram.com/p/Cxyz123/",
+   "y": 0,
+   "p": 0.0009,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 13,
+   "url": "https://github.com/torvalds/linux",
+   "y": 0,
+   "p": 0.0032,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": null
+   }
+  },
+  {
+   "i": 14,
+   "url": "https://zoom.us/j/123456789?pwd=abcdef",
+   "y": 0,
+   "p": 0.0043,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 15,
+   "url": "https://www.tigo.com.bo/promociones",
+   "y": 0,
+   "p": 0.0009,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 16,
+   "url": "https://bit.ly/3xYzAbC",
+   "y": 0,
+   "p": 0.0043,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 17,
+   "url": "https://www.amazon.com/dp/B08N5WRWNW?tag=abc&ref=sr_1_1&keywords=laptop&qid=1699999999&sprefix=lap%2Caps%2C150&crid=1ABCDEFGHIJKLM",
+   "y": 0,
+   "p": 0.0009,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 18,
+   "url": "http://www.umss.edu.bo/",
+   "y": 0,
+   "p": 0.0009,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 19,
+   "url": "https://www.netflix.com/browse",
+   "y": 0,
+   "p": 0.0009,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 20,
+   "url": "https://www.microsoft.com/es-es/microsoft-365",
+   "y": 0,
+   "p": 0.0009,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 21,
+   "url": "https://www.bancosol.com.bo/",
+   "y": 0,
+   "p": 0.0233,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": true
+   }
+  },
+  {
+   "i": 22,
+   "url": "https://www.tiktok.com/@usuario/video/123",
+   "y": 0,
+   "p": 0.0009,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 23,
+   "url": "https://www.la-razon-de-bolivia.com.bo/sociedad/cuenta-regresiva-elecciones",
+   "y": 0,
+   "p": 0.0552,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": true,
+    "C": false
+   }
+  },
+  {
+   "i": 24,
+   "url": "https://login.microsoftonline.com/common/oauth2/authorize",
+   "y": 0,
+   "p": 0.0377,
+   "nivel": "BAJO",
+   "ev": {
+    "D": true,
+    "R": false,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 25,
+   "url": "https://meet.google.com/abc-defg-hij",
+   "y": 0,
+   "p": 0.0043,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 26,
+   "url": "https://www.facebook.com/marketplace/item/123",
+   "y": 0,
+   "p": 0.0009,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 27,
+   "url": "https://www.entel.bo/personas",
+   "y": 0,
+   "p": 0.0032,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": null
+   }
+  },
+  {
+   "i": 28,
+   "url": "https://open.spotify.com/playlist/37i9dQ",
+   "y": 0,
+   "p": 0.0009,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 29,
+   "url": "https://forms.gle/AbCdEf12345",
+   "y": 0,
+   "p": 0.0043,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 30,
+   "url": "https://www.viva.com.bo/",
+   "y": 0,
+   "p": 0.0009,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": false,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 31,
+   "url": "http://whatsapp-premium.xyz/activar",
+   "y": 1,
+   "p": 0.9904,
+   "nivel": "ALTO",
+   "ev": {
+    "D": true,
+    "R": true,
+    "U": true,
+    "C": false
+   }
+  },
+  {
+   "i": 32,
+   "url": "https://faceb00k-seguridad.top/login",
+   "y": 1,
+   "p": 0.9996,
+   "nivel": "ALTO",
+   "ev": {
+    "D": true,
+    "R": true,
+    "U": true,
+    "C": true
+   }
+  },
+  {
+   "i": 33,
+   "url": "https://paypa1-verificacion.com/cuenta/verificar",
+   "y": 1,
+   "p": 0.9952,
+   "nivel": "ALTO",
+   "ev": {
+    "D": true,
+    "R": true,
+    "U": false,
+    "C": true
+   }
+  },
+  {
+   "i": 34,
+   "url": "https://bit.ly/premio-tigo",
+   "y": 1,
+   "p": 0.6122,
+   "nivel": "MEDIO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": true,
+    "C": true
+   }
+  },
+  {
+   "i": 35,
+   "url": "http://185.23.44.12/banco/login.php",
+   "y": 1,
+   "p": 0.9844,
+   "nivel": "ALTO",
+   "ev": {
+    "D": false,
+    "R": true,
+    "U": true,
+    "C": true
+   }
+  },
+  {
+   "i": 36,
+   "url": "https://secure.bancounion.verificar-datos.click/clave",
+   "y": 1,
+   "p": 0.9859,
+   "nivel": "ALTO",
+   "ev": {
+    "D": true,
+    "R": null,
+    "U": true,
+    "C": true
+   }
+  },
+  {
+   "i": 37,
+   "url": "https://t.me/+PremiosGratisBolivia",
+   "y": 1,
+   "p": 0.0043,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 38,
+   "url": "https://netflix-renovar-cuenta.shop/pago",
+   "y": 1,
+   "p": 0.9904,
+   "nivel": "ALTO",
+   "ev": {
+    "D": true,
+    "R": true,
+    "U": true,
+    "C": false
+   }
+  },
+  {
+   "i": 39,
+   "url": "https://amazon.verify-account.online/signin?id=88213",
+   "y": 1,
+   "p": 0.1611,
+   "nivel": "BAJO",
+   "ev": {
+    "D": true,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 40,
+   "url": "https://mercadolibre-ofertas.vip/laptop",
+   "y": 1,
+   "p": 0.9952,
+   "nivel": "ALTO",
+   "ev": {
+    "D": true,
+    "R": true,
+    "U": false,
+    "C": true
+   }
+  },
+  {
+   "i": 41,
+   "url": "https://wa.me.chat-soporte.site/",
+   "y": 1,
+   "p": 0.0043,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 42,
+   "url": "https://microsoft-support-alerta.com/virus",
+   "y": 1,
+   "p": 0.8848,
+   "nivel": "ALTO",
+   "ev": {
+    "D": true,
+    "R": true,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 43,
+   "url": "http://tigo-promo-bolivia.icu/premio",
+   "y": 1,
+   "p": 0.9859,
+   "nivel": "ALTO",
+   "ev": {
+    "D": true,
+    "R": null,
+    "U": true,
+    "C": true
+   }
+  },
+  {
+   "i": 44,
+   "url": "https://instagram-verificado.xyz/formulario",
+   "y": 1,
+   "p": 0.8848,
+   "nivel": "ALTO",
+   "ev": {
+    "D": true,
+    "R": true,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 45,
+   "url": "https://goog1e-drive-compartido.com/doc",
+   "y": 1,
+   "p": 0.1611,
+   "nivel": "BAJO",
+   "ev": {
+    "D": true,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 46,
+   "url": "https://bancosol-clientes.top/ingreso",
+   "y": 1,
+   "p": 0.9952,
+   "nivel": "ALTO",
+   "ev": {
+    "D": true,
+    "R": true,
+    "U": false,
+    "C": true
+   }
+  },
+  {
+   "i": 47,
+   "url": "https://www.tiktok-premios.live/",
+   "y": 1,
+   "p": 0.1611,
+   "nivel": "BAJO",
+   "ev": {
+    "D": true,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 48,
+   "url": "https://entel-recarga-gratis.xyz/",
+   "y": 1,
+   "p": 0.9032,
+   "nivel": "ALTO",
+   "ev": {
+    "D": true,
+    "R": null,
+    "U": true,
+    "C": null
+   }
+  },
+  {
+   "i": 49,
+   "url": "https://mail.google.com.verificar-sesion.top/inbox",
+   "y": 1,
+   "p": 0.7216,
+   "nivel": "ALTO",
+   "ev": {
+    "D": true,
+    "R": null,
+    "U": true,
+    "C": false
+   }
+  },
+  {
+   "i": 50,
+   "url": "https://bnb-seguro.com.bo.acceso-clientes.xyz/",
+   "y": 1,
+   "p": 0.9904,
+   "nivel": "ALTO",
+   "ev": {
+    "D": true,
+    "R": true,
+    "U": true,
+    "C": false
+   }
+  },
+  {
+   "i": 51,
+   "url": "http://paypal.com-cuenta-actualizar.xyz/",
+   "y": 1,
+   "p": 0.7216,
+   "nivel": "ALTO",
+   "ev": {
+    "D": true,
+    "R": null,
+    "U": true,
+    "C": false
+   }
+  },
+  {
+   "i": 52,
+   "url": "https://www.facebook.com@evil-site.top/login",
+   "y": 1,
+   "p": 0.0552,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": true,
+    "C": false
+   }
+  },
+  {
+   "i": 53,
+   "url": "https://docs-google.com.bo-compartir.top/d/abc",
+   "y": 1,
+   "p": 0.7216,
+   "nivel": "ALTO",
+   "ev": {
+    "D": true,
+    "R": null,
+    "U": true,
+    "C": false
+   }
+  },
+  {
+   "i": 54,
+   "url": "https://www.mercado-libre-bolivia.com/ofertas",
+   "y": 1,
+   "p": 0.1477,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": true,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 55,
+   "url": "https://tinyurl.com/yz8abc",
+   "y": 1,
+   "p": 0.0043,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 56,
+   "url": "https://cutt.ly/ganar-dinero",
+   "y": 1,
+   "p": 0.0043,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 57,
+   "url": "https://telegram-canal-vip.xyz/join",
+   "y": 1,
+   "p": 0.9996,
+   "nivel": "ALTO",
+   "ev": {
+    "D": true,
+    "R": true,
+    "U": true,
+    "C": true
+   }
+  },
+  {
+   "i": 58,
+   "url": "https://wh4tsapp-web.top/qr",
+   "y": 1,
+   "p": 0.1477,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": true,
+    "U": false,
+    "C": false
+   }
+  },
+  {
+   "i": 59,
+   "url": "https://youtube-premio.click/video",
+   "y": 1,
+   "p": 0.1047,
+   "nivel": "BAJO",
+   "ev": {
+    "D": false,
+    "R": null,
+    "U": false,
+    "C": true
+   }
+  },
+  {
+   "i": 60,
+   "url": "https://www.bancounion.com.bo.seguridad-online.icu/clave",
+   "y": 1,
+   "p": 0.9996,
+   "nivel": "ALTO",
+   "ev": {
+    "D": true,
+    "R": true,
+    "U": true,
+    "C": true
+   }
+  }
+ ]
+}
